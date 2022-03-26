@@ -1,0 +1,41 @@
+body{
+    background-color:blanchedalmond;
+}
+img{
+    width: 65vh;
+    border: 3px burlywood solid;
+}
+#gridcontainer{
+    
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 20vh 20vh ;
+        border: 2px saddlebrown solid;
+    img{
+        width: 20vh;
+        height: 15vh;
+        
+        border: 3px burlywood solid;
+        object-fit: fill;
+    }
+    h3{
+        font-family: cursive;
+        text-align: center;
+        background-color: burlywood;
+    }
+}
+#shoppingCart{
+    border: 5px saddlebrown solid;
+    margin: 10vh;
+    padding: 20vh;
+}
+.navbar{
+    
+    a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    background-color:burlywood;
+    border: 2px white solid;
+    }
+}
